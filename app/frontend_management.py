@@ -16,7 +16,7 @@ from importlib.metadata import version
 import requests
 from typing_extensions import NotRequired
 
-from utils.install_util import get_missing_requirements_message, requirements_path
+from utilities.install_util import get_missing_requirements_message, requirements_path
 
 from comfy.cli_args import DEFAULT_VERSION_STRING
 import app.logger

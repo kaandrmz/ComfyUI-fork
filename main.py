@@ -8,7 +8,7 @@ import time
 from comfy.cli_args import args
 from app.logger import setup_logger
 import itertools
-import utils.extra_config
+import utilities.extra_config
 import logging
 import sys
 from comfy_execution.progress import get_progress_state
