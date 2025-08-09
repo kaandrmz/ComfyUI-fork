@@ -11,6 +11,7 @@ import itertools
 import utilities.extra_config
 import logging
 import sys
+import server
 from comfy_execution.progress import get_progress_state
 from comfy_execution.utils import get_executing_context
 from comfy_api import feature_flags
